@@ -3,3 +3,7 @@ image: gitpod/workspace-dotnet
 tasks:
   - init: dotnet build
     command: dotnet run
+
+vscode:
+  extensions:
+    - ionide.ionide-fsharp@5.5.4:77fbec7c8de28b9adaf7765c7dbddf82
